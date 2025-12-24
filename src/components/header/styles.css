@@ -56,7 +56,7 @@
 
 .contact-us-button {
     width: 175px;
-    height: 44px;
+    height: 45px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -126,13 +126,75 @@
     transform: rotate(-45deg) translate(7px, -6px);
 }
 
+/* ===============================
+   Custom Language Dropdown
+================================ */
+
+.lang-dropdown {
+    position: relative;
+    width: 70px;
+    user-select: none;
+}
+
+.lang-selected {
+    height: 40px;
+    padding: 0 14px;
+    background: #fff;
+    border-radius: 40px;
+    font-size: 14px;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.lang-arrow {
+    font-size: 10px;
+    margin-left: 6px;
+    transition: transform 0.2s ease;
+}
+
+.lang-arrow.open {
+    transform: rotate(180deg);
+}
+
+.lang-options {
+    position: absolute;
+    top: 110%;
+    left: 0;
+    right: 0;
+    background: #fff;
+    list-style: none;
+    z-index: 999;
+}
+
+.lang-option {
+    padding: 2px 6px;
+    cursor: pointer;
+    transition:
+        opacity 0.25s ease,
+        transform 0.25s ease;
+}
+
+.lang-option:hover {
+    background: var(--main-color);
+    color: #fff;
+}
+
+
+.nav__arrow {
+    width: 16px !important;
+    height: 16px !important;
+    min-width: 16px;
+    min-height: 16px;
+    object-fit: contain;
+    margin-left: 6px;
+    transition: transform 0.25s ease;
+}
+
 
 @media (max-width: 768px) {
-    .page {
-        margin: 10px;
-        border-radius: 15px;
-    }
-
     .header__container {
         padding: 30px 20px 0 20px;
     }
@@ -146,7 +208,7 @@
         background-color: rgba(0, 0, 0, 0.95);
         flex-direction: column;
         justify-content: center;
-        gap: 30px;
+        gap: 15px;
         transition: right 0.3s ease-in-out;
         z-index: 1000;
         padding: 40px;
@@ -166,10 +228,7 @@
         font-size: 20px;
     }
 
-
-
     .header__menu-toggle {
         display: flex;
     }
-
 }

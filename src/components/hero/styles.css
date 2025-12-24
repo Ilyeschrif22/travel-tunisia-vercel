@@ -1,11 +1,11 @@
 .hero__section {
     width: 635px;
-    margin: 180px 40px;
+    margin: 170px 40px;
     color: #ffffff;
 }
 
 .hero-text {
-    font-size: 65px;
+    font-size: 54px;
     font-weight: 700;
     line-height: 1.1;
 }
@@ -32,8 +32,6 @@
     font-weight: 700;
     gap: 30px;
 }
-
-
 
 .arrow-circle-button {
     width: 40px;
@@ -79,11 +77,12 @@
     }
 
     .hero-subtext {
+        font-size: 16px;
         width: 250px;
     }
 
     .get-started-button {
-        width: 300px;
+        width: 280px;
     }
 
 
