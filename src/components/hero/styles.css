@@ -69,17 +69,17 @@
 
     .hero__section {
         margin: 100px 20px;
-        width: 390px;
+        width: 250px;
     }
 
     .hero-text {
-        font-size: 54px;
+        font-size: 50px;
         font-weight: 700;
         line-height: 1.1;
     }
 
     .hero-subtext {
-        width: 370px;
+        width: 250px;
     }
 
     .get-started-button {
