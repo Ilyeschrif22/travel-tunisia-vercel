@@ -2,8 +2,18 @@
     "destinations": "Destinations",
     "about_us": "À propos de nous",
     "services": "Services",
-    "contact_us": "Contactez-nous",
-    "hero_title": "Découvrez des circuits tunisiens authentiques et des expériences culturelles",
-    "hero_subtitle": "Vivez la beauté de la Tunisie à travers des circuits soigneusement conçus mettant en valeur des sites antiques, des plages magnifiques et une culture vibrante",
-    "hero_cta": "COMMENCER"
+    "contact_us": "CONTACTE",
+    "hero_title": "Découvrez des tours authentiques en Tunisie et des expériences culturelles",
+    "hero_subtitle": "Découvrez la beauté de la Tunisie avec des visites expertes présentant des ruines anciennes, des plages magnifiques et une culture vibrante",
+    "hero_cta": "COMMENCEZ",
+    "mostVisited": "Lieux les plus visités en Tunisie",
+    "chooseLocation": "Choisissez votre destination",
+    "locations": {
+        "Tunisia beaches": "Plages de Tunisie",
+        "Bab bhar": "Bab Bhar",
+        "El jem": "El Jem",
+        "Sahara Desert": "Désert du Sahara",
+        "Sidi Bou Said": "Sidi Bou Said",
+        "Souk el medina": "Souk el Médina"
+    }
 }

@@ -25,24 +25,30 @@ body {
     min-height: 100vh;
     margin: 10px;
     background-color: white;
-    background-image: linear-gradient(270deg, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 0.8) 100%), url("../public/background.webp");
+}
+
+.hero-wrapper {
+    background-image:
+        linear-gradient(270deg, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 0.8) 100%),
+        url("../public/background.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-origin: content-box;
-    border-radius: 20px;
+    border-radius: 20px 20px 0 0;
     overflow: hidden;
+    min-height: 100vh;
+    padding-bottom: 40px;
 }
 
 @media (max-width: 768px) {
     .page {
         margin: 0;
-        background-image: linear-gradient(270deg, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 0.6) 100%), url("../public/background.webp");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-origin: content-box;
-        border-radius: 0px;
+    }
 
+    .hero-wrapper {
+        border-radius: 0;
+        background-image:
+            linear-gradient(270deg, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 0.6) 100%),
+            url("../public/background.jpg");
     }
 }
