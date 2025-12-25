@@ -67,7 +67,7 @@
     border-radius: 40px;
     font-size: 14px;
     font-weight: 700;
-    gap: 15px;
+    gap: 20px;
 }
 
 .arrow-circle {
@@ -208,7 +208,7 @@
         background-color: rgba(0, 0, 0, 0.95);
         flex-direction: column;
         justify-content: center;
-        gap: 15px;
+        gap: 10px;
         transition: right 0.3s ease-in-out;
         z-index: 1000;
         padding: 40px;
