@@ -2,15 +2,10 @@ import React, { useState, useRef, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import "./styles.css";
 
-const languages = [
-    { code: "en", label: "EN" },
-    { code: "fr", label: "FR" },
-    { code: "ar", label: "AR" },
-];
 
 const SlidePanel = ({ isMenuOpen, closeMenu, currentLang, changeLanguage }) => {
     const { t } = useTranslation();
-    const [langOpen, setLangOpen] = useState(false);
+    const [setLangOpen] = useState(false);
     const dropdownRef = useRef(null);
 
     useEffect(() => {
@@ -66,36 +61,6 @@ const SlidePanel = ({ isMenuOpen, closeMenu, currentLang, changeLanguage }) => {
                     <img src="/add-icon.svg" className="nav-list-icon" alt="icon" />
                 </div>
             </ul>
-
-            <div className="lang-dropdown" ref={dropdownRef} style={{ marginTop: "30px" }}>
-                <div className="lang-selected" onClick={() => setLangOpen(!langOpen)}>
-                    {currentLang.label}
-                    <img
-                        src="/stat_minus.png"
-                        alt=""
-                        className={`nav__arrow ${langOpen ? "open" : ""}`}
-                        style={{ marginLeft: "8px" }}
-                    />
-                </div>
-
-                {langOpen && (
-                    <ul className="lang-options">
-                        {languages.map((lang) => (
-                            <li
-                                key={lang.code}
-                                className="lang-option"
-                                onClick={() => {
-                                    changeLanguage(lang.code);
-                                    setLangOpen(false);
-                                    closeMenu();
-                                }}
-                            >
-                                {lang.label}
-                            </li>
-                        ))}
-                    </ul>
-                )}
-            </div>
 
             <div className="contact-info">
                 <ul className="contact-list">

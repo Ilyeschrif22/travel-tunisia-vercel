@@ -214,10 +214,6 @@
         padding: 40px;
     }
 
-    .header__right.active {
-        right: 0;
-    }
-
     .nav__list {
         flex-direction: column;
         gap: 30px;
@@ -231,4 +227,19 @@
     .header__menu-toggle {
         display: flex;
     }
+}
+
+.header__mobile-right {
+    display: none;
+}
+
+@media (max-width: 768px) {
+
+    .header__mobile-right {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        z-index: 1001;
+    }
+
 }

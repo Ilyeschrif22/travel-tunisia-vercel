@@ -74,7 +74,6 @@ const Header = () => {
                 className={`nav__arrow ${langOpen ? "open" : ""}`}
               />
             </div>
-
             {langOpen && (
               <ul className="lang-options">
                 {languages.map((lang) => (
@@ -100,13 +99,42 @@ const Header = () => {
           </div>
         </div>
 
-        <div
-          className={`header__menu-toggle ${isMenuOpen ? "active" : ""}`}
-          onClick={toggleMenu}
-        >
-          <span></span>
-          <span></span>
-          <span></span>
+        <div className="header__mobile-right">
+          <div className="lang-dropdown lang-dropdown--mobile">
+            <div
+              className="lang-selected"
+              onClick={() => setLangOpen(!langOpen)}
+            >
+              {currentLang.label}
+              <img
+                src="/stat_minus.png"
+                alt=""
+                className={`nav__arrow ${langOpen ? "open" : ""}`}
+              />
+            </div>
+            {langOpen && (
+              <ul className="lang-options">
+                {languages.map((lang) => (
+                  <li
+                    key={lang.code}
+                    className="lang-option"
+                    onClick={() => changeLanguage(lang.code)}
+                  >
+                    {lang.label}
+                  </li>
+                ))}
+              </ul>
+            )}
+          </div>
+
+          <div
+            className={`header__menu-toggle ${isMenuOpen ? "active" : ""}`}
+            onClick={toggleMenu}
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
         </div>
       </div>
 
