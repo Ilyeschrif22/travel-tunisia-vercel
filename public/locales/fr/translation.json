@@ -15,5 +15,20 @@
         "Sahara Desert": "Désert du Sahara",
         "Sidi Bou Said": "Sidi Bou Said",
         "Souk el medina": "Souk el Médina"
-    }
+    },
+  "contact": {
+    "discover": "Découvrez les meilleures destinations en Tunisie",
+    "bookNow": "Réservez votre voyage de rêve maintenant !",
+    "officeAddress": "Adresse du bureau",
+    "email": "Email",
+    "phone": "Téléphone",
+    "getInTouch": "Contactez-nous",
+    "fullName": "Nom complet",
+    "emailAddress": "Adresse e-mail",
+    "phoneNumber": "Numéro de téléphone",
+    "placeholderFullName": "Votre nom complet",
+    "placeholderEmail": "Votre e-mail",
+    "placeholderPhone": "xxxx-xxxx-xxxx",
+    "getACallBack": "RAPPEL IMMÉDIAT"
+  }
 }

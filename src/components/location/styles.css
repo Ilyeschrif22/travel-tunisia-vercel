@@ -1,5 +1,5 @@
 .locations-container {
-    height: 100vh;
+    min-height: 100vh; 
     padding: 60px 10px;
     box-sizing: border-box;
     background: var(--background-light);
@@ -51,7 +51,7 @@
 }
 
 .location-card:hover {
-    transform: scale(1.02);
+    transform: none;
     cursor: pointer;
 }
 
@@ -117,7 +117,7 @@
 @media (max-width: 720px) {
 
     .locations-container {
-        padding: 60px 15px;
+        padding: 60px  15px 0 15px;
     }
 
     .locations-title {

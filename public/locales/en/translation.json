@@ -15,5 +15,21 @@
         "Sahara Desert": "Sahara Desert",
         "Sidi Bou Said": "Sidi Bou Said",
         "Souk el medina": "Souk el Medina"
-    }
+    },
+
+    "contact": {
+    "discover": "Discover Tunisia’s Best Destinations",
+    "bookNow": "Book Your Dream Trip Now!",
+    "officeAddress": "Office Address",
+    "email": "Email",
+    "phone": "Phone",
+    "getInTouch": "Get in touch",
+    "fullName": "Full Name",
+    "emailAddress": "Email Address",
+    "phoneNumber": "Phone Number",
+    "placeholderFullName": "Your full name",
+    "placeholderEmail": "Your email",
+    "placeholderPhone": "xxxx-xxxx-xxxx",
+    "getACallBack": "GET A CALL BACK"
+  }
 }

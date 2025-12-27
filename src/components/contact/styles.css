@@ -1,0 +1,147 @@
+.contact-container {
+    min-height: 100vh; 
+    width: 100%;
+    padding: 120px 120px;
+    background-color: #f6f7f9;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+
+.form-title{
+    font-size: 32px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.contact-text{
+    font-size: 54px;
+    max-width: 450px;
+    font-weight: 600;
+    margin-bottom: 40px; 
+}
+
+.contact-adress, .contact-email , .contact-phone
+{
+   margin-bottom: 20px;
+}
+
+.contact-divider{
+    width: 500px;
+    color: #f6f7f9;
+    margin: 40px 0;
+}
+
+.social-media-icons
+{
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.contact-form
+{
+    height: 612px;
+    width: 600px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 40px 50px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.form-name-label, .form-email-label, .form-phone-label{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    color: #888888;
+}
+
+.form-name-container, .form-email-container, .form-phone-container{
+    width: 95%;
+    height: 67px;
+    border-radius: 12px;
+    border: 1px solid #d3d3d3;
+    background: #f6f7f9;
+    margin-bottom: 30px;
+}
+
+.form-input-first-name, .form-input-email, .form-input-phone{
+    width: 95%;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: transparent;
+}
+
+.get-a-call-button{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 67px;
+    width: 260px;
+    background-color: var(--main-color);
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    padding: 10px 10px;
+}
+
+.arrow-circle-button-contact{
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.get-a-call-button:hover .arrow-circle-button-contact{
+    transform: rotate(45deg);
+        transition: transform 0.3s ease;
+
+}
+
+
+@media (max-width: 720px) {
+
+    .contact-container{
+        flex-direction: column;
+        padding: 20px 10px;
+        height: auto;
+    }
+
+    .contact-form{
+        width: 100%;
+        height: auto;
+        padding: 30px 20px;
+    }
+
+    .contact-text-container{
+        padding: 40px;
+    }
+
+    .contact-text,.contact-adress, .contact-email , .contact-phone,.social-media-icons{
+        max-width: 100%;
+        margin-bottom: 20px; 
+        padding: 0 93px
+    }
+
+    .contact-text{
+        font-size: 36px;
+    }
+
+    .social-media-icons{
+        gap: 40px;
+    }
+
+}

@@ -1,6 +1,7 @@
 import Header from "./components/header/header";
 import Hero from "./components/hero/hero";
 import Location from "./components/location/location";
+import Contact from "./components/contact/contact";
 
 import "./App.css";
 
@@ -12,7 +13,8 @@ function App() {
         <Hero />
       </div>
 
-      <Location />
+      <Location /> 
+      <Contact />
     </div>
   );
 }

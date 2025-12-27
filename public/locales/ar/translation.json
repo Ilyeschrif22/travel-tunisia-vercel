@@ -15,5 +15,20 @@
         "Sahara Desert": " صحراء تونس",
         "Sidi Bou Said": "سيدي بوسعيد",
         "Souk el medina": "سوق المدينة"
-    }
+    },
+  "contact": {
+    "discover": "اكتشف أفضل الوجهات في تونس",
+    "bookNow": "احجز رحلتك الآن!",
+    "officeAddress": "عنوان المكتب",
+    "email": "البريد الإلكتروني",
+    "phone": "الهاتف",
+    "getInTouch": "تواصل معنا",
+    "fullName": "الاسم الكامل",
+    "emailAddress": "البريد الإلكتروني",
+    "phoneNumber": "رقم الهاتف",
+    "placeholderFullName": "اسمك الكامل",
+    "placeholderEmail": "بريدك الإلكتروني",
+    "placeholderPhone": "xxxx-xxxx-xxxx",
+    "getACallBack": "اطلب مكالمة"
+  }
 }
