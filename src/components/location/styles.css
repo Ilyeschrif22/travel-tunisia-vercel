@@ -1,5 +1,5 @@
 .locations-container {
-    min-height: 100vh; 
+    min-height: 100vh;
     padding: 60px 10px;
     box-sizing: border-box;
     background: var(--background-light);
@@ -18,14 +18,14 @@
 
 .location-images-wrapper {
     position: relative;
-    padding-top: 10px; 
+    padding-top: 10px;
 }
 
 .scroll-btn {
     position: absolute;
     top: -80px;
     background-color: var(--main-color);
-    
+
     border: none;
     color: white;
     font-size: 28px;
@@ -38,7 +38,7 @@
 }
 
 .scroll-btn:hover {
-    background-color: #cc5e3a; 
+    background-color: #cc5e3a;
 }
 
 .scroll-btn.right {
@@ -47,12 +47,13 @@
 }
 
 .scroll-icon.left-icon {
-  transform: rotate(225deg); 
-  filter: brightness(0) invert(1);
+    transform: rotate(225deg);
+    filter: brightness(0) invert(1);
 }
+
 .scroll-icon.right-icon {
-  transform: rotate(45deg);
-  filter: brightness(0) invert(1);
+    transform: rotate(45deg);
+    filter: brightness(0) invert(1);
 }
 
 
@@ -69,12 +70,15 @@
     height: 520px;
     position: relative;
     gap: 20px;
-    scrollbar-width: none; /* Firefox */
-    z-index: 1; /* تحت الأزرار */
+    scrollbar-width: none;
+    /* Firefox */
+    z-index: 1;
+    /* تحت الأزرار */
 }
 
 .location-images-carousel::-webkit-scrollbar {
-    display: none; /* Chrome, Safari */
+    display: none;
+    /* Chrome, Safari */
 }
 
 .image-track {
@@ -157,7 +161,7 @@
 
 @media (max-width: 720px) {
     .locations-container {
-        padding: 60px  15px 0 15px;
+        padding: 60px 15px 0 15px;
     }
 
     .locations-title {
@@ -218,15 +222,16 @@
         transform: translate(-50%, 150%);
     }
 
-    .scroll-btn.left,.scroll-btn.right{
+    .scroll-btn.left,
+    .scroll-btn.right {
         display: flex;
         align-items: center;
         justify-content: center;
-        border-radius: 0;
+        border-radius: 10px;
     }
 
     .scroll-icon.left-icon {
-  transform: rotate(45deg); 
-  filter: brightness(0) invert(1);
-}
+        transform: rotate(45deg);
+        filter: brightness(0) invert(1);
+    }
 }

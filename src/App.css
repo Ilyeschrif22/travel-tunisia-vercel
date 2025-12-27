@@ -38,6 +38,7 @@ body {
     overflow: hidden;
     min-height: 100vh;
     padding-bottom: 40px;
+    contain: layout paint;
 }
 
 @media (max-width: 768px) {

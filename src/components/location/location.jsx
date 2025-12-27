@@ -35,9 +35,9 @@ const Location = () => {
 
             <div className="location-images-wrapper">
                 <button className="scroll-btn left" onClick={() => scroll("left")} aria-label="Scroll Left">
-  <img src="/arrow_outward.svg" alt="Scroll Left" className="scroll-icon left-icon" />
-</button>
-              
+                    <img src="/arrow_outward.svg" alt="Scroll Left" className="scroll-icon left-icon" />
+                </button>
+
 
 
                 <div className="location-images-carousel" ref={scrollRef}>
@@ -48,6 +48,9 @@ const Location = () => {
                                     className="location-image"
                                     src={loc.src}
                                     alt={t(`locations.${loc.titleKey}`)}
+                                    oading={i === 0 ? "eager" : "lazy"}
+                                    fetchpriority={i === 0 ? "high" : "auto"}
+                                    decoding="async"
                                 />
                                 <div className="location-description">
                                     <h3>{t(`locations.${loc.titleKey}`)}</h3>
@@ -60,9 +63,9 @@ const Location = () => {
                     </div>
                 </div>
 
-                  <button className="scroll-btn right" onClick={() => scroll("right")} aria-label="Scroll Right">
-  <img src="/arrow_outward.svg" alt="Scroll Right" className="scroll-icon right-icon" />
-</button>
+                <button className="scroll-btn right" onClick={() => scroll("right")} aria-label="Scroll Right">
+                    <img src="/arrow_outward.svg" alt="Scroll Right" className="scroll-icon right-icon" />
+                </button>
             </div>
         </div>
     );
