@@ -4,6 +4,7 @@ import Location from "./components/location/location";
 import Contact from "./components/contact/contact";
 
 import "./App.css";
+import WhyChooseUs from "./components/whychooseus/whychooseus";
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
         <Hero />
       </div>
 
-      <Location /> 
+       <Location /> 
+      <WhyChooseUs />
       <Contact />
     </div>
   );

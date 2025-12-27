@@ -14,7 +14,9 @@
         "El jem": "El Jem",
         "Sahara Desert": "Sahara Desert",
         "Sidi Bou Said": "Sidi Bou Said",
-        "Souk el medina": "Souk el Medina"
+        "Souk el medina": "Souk el Medina",
+        "Tunisia hotels": "Tunisia hotels",
+        "Tunisia traditional cafee": "Tunisia traditional cafee"
     },
 
     "contact": {
@@ -31,5 +33,13 @@
     "placeholderEmail": "Your email",
     "placeholderPhone": "xxxx-xxxx-xxxx",
     "getACallBack": "GET A CALL BACK"
-  }
+  },
+  "home": "Home Page",
+  "about": "About",
+  "service": "Service",
+  "service_details": "Service Details",
+  "reviews": "Reviews",
+  "blog": "Blog",
+  "blog_details": "Blog Details",
+  "contact_menu": "Contact"
 }

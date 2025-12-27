@@ -130,7 +130,7 @@
         padding: 40px;
     }
 
-    .contact-text,.contact-adress, .contact-email , .contact-phone,.social-media-icons{
+    .contact-text,.contact-adress-field, .contact-email-field , .contact-phone-field,.social-media-icons{
         max-width: 100%;
         margin-bottom: 20px; 
         padding: 0 93px

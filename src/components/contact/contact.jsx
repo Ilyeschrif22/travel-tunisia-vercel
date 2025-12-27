@@ -14,9 +14,9 @@ const Contact = () => {
         </p>
 
         <div className="contact-information">
-          <p className="contact-adress">{t("contact.officeAddress")}: 123 Cool Air Blvd, New York, NY 10001</p>
-          <p className="contact-email">{t("contact.email")}: info@travel-tunisia.com</p>
-          <p className="contact-phone">{t("contact.phone")}: +1 (555) 123-4567</p>
+          <p className="contact-adress-field">{t("contact.officeAddress")}: 123 Cool Air Blvd, New York, NY 10001</p>
+          <p className="contact-email-field">{t("contact.email")}: info@travel-tunisia.com</p>
+          <p className="contact-phone-field">{t("contact.phone")}: +1 (555) 123-4567</p>
         </div>
 
         <hr className="contact-divider" />

@@ -14,7 +14,7 @@ body {
 }
 
 :root {
-    --main-color: #FF6B35;
+    --main-color: #FF7A50;
     --white: #fff;
     --black: #000;
     --text-dark: #1a1a1a;
@@ -52,3 +52,4 @@ body {
             url("../public/background.jpg");
     }
 }
+

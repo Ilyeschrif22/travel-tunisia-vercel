@@ -1,0 +1,79 @@
+.why-choose-us {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+}
+
+.why-choose-us-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: var(--main-color);
+}
+
+.why-choose-us-subtitle {
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+    color: var(--text-dark);
+    max-width: 860px;
+}
+
+.reasons-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.reason-card {
+    height: 300px;
+    width: 420px;
+    padding: 40px 30px;
+    background-color: var(--white);
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+.card-image {
+    width: 420px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.reason-title {
+    font-size: 20;
+    margin-bottom: 10px;
+}
+
+.reason-icon {
+    margin-bottom: 15px;
+}
+
+@media (max-width: 720px) {
+    .why-choose-us-subtitle{
+        font-size: 36px;
+    }
+
+
+    .reason-card {
+        height: 400px;
+    }
+
+    .card-image {
+        width: 300px;
+        height: 420px;
+    }
+
+}
