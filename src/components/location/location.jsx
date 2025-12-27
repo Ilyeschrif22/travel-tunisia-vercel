@@ -10,11 +10,11 @@ const Location = () => {
         { src: "/1.webp", titleKey: "Tunisia beaches" },
         { src: "/2.webp", titleKey: "Bab bhar" },
         { src: "/3.webp", titleKey: "El jem" },
-        { src: "/1.webp", titleKey: "Sahara Desert" },
-        { src: "/1.webp", titleKey: "Sidi Bou Said" },
-        { src: "/1.webp", titleKey: "Souk el medina" },
-        { src: "/1.webp", titleKey: "Tunisia hotels" },
-        { src: "/1.webp", titleKey: "Tunisia traditional cafee" },
+        { src: "/4.webp", titleKey: "Sahara Desert" },
+        { src: "/5.webp", titleKey: "Sidi Bou Said" },
+        { src: "/6.webp", titleKey: "Souk el medina" },
+        { src: "/7.jpg", titleKey: "Tunisia hotels" },
+        { src: "/8.webp", titleKey: "Tunisia traditional cafee" },
     ];
 
     const scroll = (direction) => {
