@@ -5,6 +5,7 @@ import Contact from "./components/contact/contact";
 
 import "./App.css";
 import WhyChooseUs from "./components/whychooseus/whychooseus";
+import Footer from "./components/footer/footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
        <Location /> 
       <WhyChooseUs />
       <Contact />
+      <Footer />
     </div>
   );
 }
