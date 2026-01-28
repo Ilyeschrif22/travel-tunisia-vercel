@@ -11,7 +11,7 @@ Travel Tunisia is a tourism platform that showcases the beauty of Tunisia throug
 ## Preview
 
 Preview
-<img width="1825" alt="Homepage" src="https://github.com/user-attachments/assets/7fee8414-3d1a-4c5b-8625-287fe9d3287a" />
+<img width="1808" height="823" alt="Screenshot from 2026-01-28 22-29-41" src="https://github.com/user-attachments/assets/50ccf9a0-d113-4e62-80b7-224ce39a2ead" />
 Discover authentic tours and cultural experiences in Tunisia
 <img width="1825" alt="Destinations" src="https://github.com/user-attachments/assets/4f6129d9-cbc9-4423-b25d-0ab6c65b3633" />
 Explore Tunisia's most visited locations
@@ -45,12 +45,6 @@ Rich cultural experiences with authentic local guides
 - **Affordable Prices**: Quality tours at budget-friendly rates
 - **Personalized Itineraries**: Tours tailored to your preferences
 - **Rich Cultural Experiences**: Dive deep into Tunisian culture and traditions
-
-## Contact
-
-- **Office Address**: 123 Cool Air Blvd, New York, NY 10001
-- **Email**: info@travel-tunisia.com
-- **Phone**: +1 (555) 123-4567
 
 ## Built With
 
